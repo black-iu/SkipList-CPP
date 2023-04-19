@@ -206,7 +206,7 @@ template<typename K, typename V>
 void SkipList<K, V>::display_list() {
 
     std::cout << "\n*****Skip List*****"<<"\n"; 
-    for (int i = 0; i <= _skip_list_level; i++) {//从0级开始打印
+    for (int i = 0; i <= _skip_list_level; i++) {  //从0级开始打印
         Node<K, V> *node = this->_header->forward[i]; 
         std::cout << "Level " << i << ": ";
         while (node != NULL) {
