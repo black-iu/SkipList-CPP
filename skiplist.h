@@ -84,8 +84,8 @@ public:
     void display_list();
     bool search_element(K);
     void delete_element(K);
-    void dump_file();
-    void load_file();
+    void dump_file(); //将数据保存到文件
+    void load_file(); //从文件中加载数据，逐个插入
     int size();
 
 private:
@@ -102,7 +102,7 @@ private:
     // pointer to header node 
     Node<K, V> *_header; //头结点，不保存数据，保存的是各层级的头指针
 
-    // file operator 写入读取 文件操作符
+    // file operator 写入 读取 文件操作符
     std::ofstream _file_writer;
     std::ifstream _file_reader;
 
