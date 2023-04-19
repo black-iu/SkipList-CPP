@@ -1,10 +1,3 @@
-/* ************************************************************************
-> File Name:     main.cpp
-> Author:        程序员Carl
-> 微信公众号:    代码随想录
-> Created Time:  Sun Dec  2 20:21:41 2018
-> Description:   
- ************************************************************************/
 #include <iostream>
 #include "skiplist.h"
 #define FILE_PATH "./store/dumpFile"
