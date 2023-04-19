@@ -27,7 +27,6 @@
 * loadFile（加载数据）(bug解决)
 * size（返回数据规模）
 
-
 # 存储引擎数据表现
 
 ## 插入操作
@@ -81,7 +80,6 @@ sh stress_test_start.sh
 
 代码参考[@Carl](https://github.com/youngyangyang04/Skiplist-CPP)
 [@lotabout](https://lotabout.me/2018/skip-list/)
-
 
 
 
